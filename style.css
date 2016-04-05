@@ -6,6 +6,13 @@
 }
 
 @font-face {
+	font-family: 'TT-mediumitalic';
+	src: url('fonts/TiemposText-MediumItalic.eot?#iefix') format('embedded-opentype'), url('fonts/TiemposText-MediumItalic.woff') format('woff'), url('fonts/TiemposText-MediumItalic.ttf') format('truetype'), url('fonts/TiemposText-MediumItalic.svg#Circular-Book') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
 	font-family: 'Circular-Bold';
 	src: url('fonts/circular-bold.eot?#iefix') format('embedded-opentype'), url('fonts/circular-bold.woff') format('woff'), url('fonts/circular-bold.ttf') format('truetype'), url('fonts/circular-bold.svg#Circular-Bold') format('svg');
 	font-weight: normal;
@@ -19,29 +26,24 @@
 	font-style: normal;
 }
 
-
-
 body {
-	font-size: 14px;
+	font-size: 16px;
 	margin: 0;
 	background-color: #F6F6F6;
 	width: 100%;
 	max-width: 400px;
 	color: #4A4A4A;
-	
 }
 
 #heroImage {
 	background-image: url(https://lh3.googleusercontent.com/-f8FivbtTd68/Vjui5yNdSDI/AAAAAAAAX7Q/gOgvmi6piOIvMDQ6ZipJ2Cb6PZUzNkI5gCHM/2015_October_17_UndergradRetreat_Day2_MorningWorship_Praise_Congregation%2B%252813%2529.JPG);
 	background-size: cover;
 	width: 100%;
-	min-height: 300px;
-	max-height: 600px;
+	height: 350px;
 	display: -webkit-flex;
 	display: flex;
 	position: relative;
 }
-
 
 h1 {
 	margin: 0;
@@ -52,19 +54,10 @@ h1 {
 }
 
 #verticalCenter {
-		display: -webkit-flex;
-	display: flex;
-	-webkit-flex: 1;
-	flex: 1;
-	-webkit-justify-content: center;
-	justify-content: center;
-	-webkit-align-items: center;
-	align-items: center;
-	-webkit-flex-direction: column;
-	flex-direction: column;
 	height: 100%;
 	text-align: center;
 	padding: 15px;
+	position: relative;
 	margin-bottom: 20px;
 }
 
@@ -94,27 +87,14 @@ button:hover {
 	color: #1FB0E0;
 	background-color: white;
 }
+
 #clearbgNav {
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-direction: row;
-	flex-direction: row;
-	-webkit-flex: 1;
-	flex: 1;
 	padding: 10px 20px;
 	margin: 10px 0px;
 }
 
 div {
 	flex: 1;
-}
-
-.row {
-	-webkit-display: flex;
-	display: flex;
-	-webkit-flex-direction: column;
-	flex-direction: column;
-	background-color: rgba(0,0,0,.5);
 }
 
 .menuDiv {
@@ -124,7 +104,7 @@ div {
 	flex: 1;
 	-webkit-justify-content: flex-end;
 	justify-content: flex-end;
-		-webkit-align-items: center;
+	-webkit-align-items: center;
 	align-items: center;
 }
 
@@ -145,16 +125,16 @@ div {
 }
 
 #menuLink {
-	color: white;
 	font-family: circular-bold;
 	text-decoration: none;
 }
 
 .card {
-	margin: 20px 10px;
+	margin: 10px 5px;
 	border: 1px #E6E6E6 solid;
 	border-radius: 2px;
 	background-color: white;
+	overflow: hidden;
 }
 
 .centered {
@@ -206,7 +186,7 @@ h2 {
 }
 
 .justify-center {
-		-webkit-justify-content: center;
+	-webkit-justify-content: center;
 	justify-content: center;
 }
 
@@ -223,7 +203,7 @@ h2 {
 }
 
 .flex-column {
-		-webkit-flex-direction: column;
+	-webkit-flex-direction: column;
 	flex-direction: column;
 }
 
@@ -235,6 +215,7 @@ a {
 	text-decoration: none;
 	font-family: circular-bold;
 }
+
 a:hover {
 	cursor: pointer;
 	opacity: .7;
@@ -242,7 +223,7 @@ a:hover {
 
 .separator {
 	width: 100%;
-	background-color: rgba(0,0,0,.05);
+	background-color: rgba(0, 0, 0, .05);
 	margin: 5px 0px;
 }
 
@@ -259,8 +240,14 @@ a:hover {
 .bgImage {
 	overflow: hidden;
 	border-radius: 2px;
-	min-height: 200px;
 	max-height: 300px;
+	position: relative;
+}
+
+div.cardImage {
+	overflow: hidden;
+	border-radius: 2px;
+	max-height: 240px;
 	position: relative;
 }
 
@@ -272,6 +259,7 @@ a:hover {
 	-webkit-align-items: flex-end;
 	align-items: flex-end;
 }
+
 .justify-end {
 	-webkit-justify-content: flex-end;
 	justify-content: flex-end;
@@ -294,7 +282,7 @@ a:hover {
 }
 
 .darkBG {
-	background-color: rgba(0,0,0,0.4);
+	background-color: rgba(0, 0, 0, 0.4);
 }
 
 p {
@@ -325,14 +313,14 @@ p {
 
 .passages {
 	font-family: circular-book;
-	font-size: 2em;
+	font-size: 1.8em;
 }
-
-
 
 .align-stretch {
 	-webkit-align-items: stretch;
 	align-items: stretch;
+	-webkit-align-content: stretch;
+	align-content: stretch;
 }
 
 .flex-full-width {
@@ -362,4 +350,96 @@ p {
 
 .medium {
 	font-family: circular-medium;
+}
+
+.half {
+	width: 50%;
+	display: inline-block;
+}
+
+.justify-stretch {
+	-webkit-justify-content: stretch;
+	justify-content: stretch;
+}
+
+.flex-item-2 {
+	-webkit-flex: 2;
+	flex: 2;
+}
+
+.content {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.quote {
+	font-family: tt-mediumitalic, serif;
+	font-size: 2em;
+	color: white;
+}
+
+@media all and (max-width: 420px) {
+	.half {
+		width: 100%;
+	}
+	h1 {
+		font-size: 1.8em;
+	}
+	#heroImage {
+		height: 400px;
+	}
+	.quote {
+		font-size: 1.5em;
+	}
+}
+
+@media all and (min-width: 420px) {
+	.half {
+		width: 100%;
+	}
+	.md-flex {
+		display: -webkit-flex;
+		display: flex;
+	}
+	.content {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+#bgNav {
+	padding: 15px 20px;
+	background-color: #fff;
+	box-shadow: 0 0 2px 4px rgba(0, 0, 0, .2);
+	z-index: 4;
+}
+
+.sectionHead {
+	font-size: 2.5em;
+	letter-spacing: 2px;
+	display: inline-block;
+}
+
+hr {
+	height: 4px;
+	width: 100px;
+	border: none;
+	background-color: rgba(255, 255, 255, .5);
+}
+
+.sermonHead {
+	margin: 0px;
+}
+
+.underline {
+	padding-bottom: 10px;
+	border-bottom: 2px rgba(0, 0, 0, .1) solid;
+}
+
+.sermonListItem {
+	margin-bottom: 10px;
+}
+
+.right {
+	text-align: right;
 }

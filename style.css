@@ -50,6 +50,7 @@ body {
 	display: -webkit-flex;
 	display: flex;
 	position: relative;
+	border-bottom: 10px #20A0D8 solid;
 }
 
 h1 {
@@ -225,7 +226,7 @@ a {
 
 a:hover {
 	cursor: pointer;
-	opacity: .7;
+	opacity: .8;
 }
 
 .separator {
@@ -308,7 +309,7 @@ p {
 }
 
 .life {
-	font-size: 8em;
+	font-size: 7em;
 	font-family: circular-bold;
 	letter-spacing: 8px;
 }
@@ -488,4 +489,7 @@ h3 {
 
 .tiempos-med-italic {
 	font-family: tt-mediumitalic, serif;
+}
+.button-link:hover {
+	opacity: 1;
 }

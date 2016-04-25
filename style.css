@@ -673,3 +673,11 @@ code {
 .light-grey {
 	color:#F6F6F6;
 }
+
+.inline {
+	display: inline;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}

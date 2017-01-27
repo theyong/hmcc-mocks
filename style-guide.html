@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HMCC Style Guide</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="modernizr.custom.js"></script>
+</head>
+
+<body>
+	<div class="absolute full-width" style="margin: 80px 0;">
+		<div class="content" style="max-width: 650px;">
+			<div class="right">
+				<img src="logo-dark.png" class="logo">
+			</div>
+			<br>
+			<h1 class="dark bold" style="font-size: 3em;"><b class="blue">HMCC</b> Style Guide</h1>
+			<br>
+			<br>
+			<br>
+			<br>
+			<h1 class="blue bold" style="padding-top: 5px; border-top: 4px #20A0D8 solid; display: inline-block;">Atoms</h1>
+			<br>
+			<br>
+			<p class="text">These are the building blocks that are used to design the components that compose this website.</p>
+			<div style="margin: 40px 0;">
+				<h1 class="dark bold underline">Color</h1>
+				<br>
+				<div class="flex">
+					<div class="flex-item-1">
+						<div class="card cardBorder" style="margin: 5px;">
+							<div style="width: 100%; height: 80px; background-color: #20A0D8; display: inline-block;"></div>
+							<div class="cardContent">
+								<p class="bold">.blue</p>
+								<p>#20A0D8</p>
+							</div>
+						</div>
+					</div>
+					<div class="flex-item-1">
+						<div class="card cardBorder" style="margin: 5px;">
+							<div style="width: 100%; height: 80px; background-color: #4A4A4A; display: inline-block;"></div>
+							<div class="cardContent">
+								<p class="bold">.dark</p>
+								<p>#4A4A4A</p>
+							</div>
+						</div>
+					</div>
+					<div class="flex-item-1">
+						<div class="card cardBorder" style="margin: 5px;">
+							<div style="width: 100%; height: 80px; background-color: #F6F6F6; display: inline-block;"></div>
+							<div class="cardContent">
+								<p class="bold">.light-grey</p>
+								<p>#F6F6F6</p>
+							</div>
+						</div>
+					</div>
+					<div class="flex-item-1">
+						<div class="card cardBorder" style="margin: 5px;">
+							<div style="width: 100%; height: 80px; background-color: white; display: inline-block;"></div>
+							<div class="cardContent">
+								<p class="bold">.white</p>
+								<p>#FFFFFF</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div style="margin: 80px 0;">
+					<h1 class="dark bold underline">Typography</h1>
+					<br>
+					<br>
+					<p class="dark bold">FONTS</p>
+					<br>
+					<h2 class="bold">Circular Bold</h2>
+					<p class="blue medium" style="margin-top: 5px;">.bold</p>
+
+					<h2 class="medium">Circular Medium</h2>
+					<p class="blue medium" style="margin-top: 5px;">.medium</p>
+
+					<h2 class="book">Circular Book</h2>
+					<p class="blue medium" style="margin-top: 5px;">.book</p>
+
+					<h2 class="text">Tiempos Text</h2>
+					<p class="blue medium" style="margin-top: 5px;">.medium</p>
+					<br>
+					<br>
+					<br>
+					<br>
+					<p class="dark bold">HEADERS</p>
+					<br>
+					<h1 class="dark">The quick brown fox jumped over the lazy dog</h1>
+					<p class="blue medium" style="margin-top: 5px;">Header 1 &mdash; Circular Book 3em</p>
+					<br>
+					<h2 class="dark">The quick brown fox jumped over the lazy dog</h2>
+					<p class="blue medium" style="margin-top: 5px;">Header 2 &mdash; Circular Bold 1.6em</p>
+					<br>
+					<h3 class="dark">The quick brown fox jumped over the lazy dog</h3>
+					<p class="blue medium" style="margin-top: 5px;">Header 3 &mdash; Circular Bold 1.2em</p>
+					<br>
+					<br>
+					<br>
+					<br>
+					<p class="dark bold">PARAGRAPHS</p>
+					<br>
+					<p>The quick brown fox jumped over the lazy dog. The lazy dog said, &ldquo;How rude! Here I am enjoying the afternoon sunshine, and you have the nerve to disturb my slumber!&rdquo;
+						<br>The fox replied, &ldquo;RINGDINGDINGDINGDINGADINGADINGADING.&rdquo;</p>
+					<p class="blue medium" style="margin-top: 10px;">Default p tag &mdash; Circular Book 1.1em</p>
+					<br>
+					<br>
+					<p class="text">The quick brown fox jumped over the lazy dog.
+						<br>The line height of this is 1.8, because we want to make sure there is enough breathing room when reading, especially because this text style is used for things like bible passages.</p>
+					<p class="blue medium" style="margin-top: 5px;">Text &mdash; Tiempos Text 1.15em</p>
+				</div>
+				<div style="margin: 80px 0;">
+					<h1 class="dark bold underline">UI Elements</h1>
+					<br>
+					<br>
+					<p class="dark bold">LINKS</p>
+					<p class="text" style="margin-top: 10px;">Used to take you from one place to another, or to intiate an action (like toggling between states).</p>
+					<div style="margin-top: 10px; padding-left: 20px; border-left: 4px rgba(0,0,0,.05) solid;">
+						<a class="blue">This is a link. Most external links should be blue.</a>
+						<h2><a>Unless it's a link attached to a header or something.</a></h2>
+						<a>
+							<div class="card cardHover">
+								<div class="cardContent">
+									<p>Or if it's a link surrounding a card, like this one. In this case, use the <b class="blue">.cardHover</b> property.</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<p class="dark bold">BUTTONS</p>
+					<p class="text" style="margin-top: 10px;">Used for actions and call-to-actions, like sending a form or going to sign up for LIFE group.</p>
+					<div class="flex">
+						<div class="flex-item-1">
+							<button>Hi, I'm a button.</button>
+							<p class="book" style="margin-top: 10px;">Used on image or dark backgrounds</p>
+						</div>
+						<div class="flex-item-1">
+							<button class="buttonBorder">Hi, I'm a .buttonBorder.</button>
+							<p class="book" style="margin-top: 10px;">Used on white backgrounds (like on cards)</p>
+						</div>
+					</div>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<p class="dark bold">INPUTS + FORMS</p>
+					<p class="text" style="margin-top: 10px;">Structural elements for creating forms.</p>
+					<br>
+					<label class="bold">Select dropdown</label>
+					<br>
+					<select>
+						<option>This is an option</option>
+						<option>This is also an option</option>
+					</select>
+					<label class="bold" for="name">Text input</label>
+					<br>
+					<input name="name" type="text" placeholder="Placeholder">
+					<label class="bold" for="radio">Radio selector</label>
+					<br>
+					<div style="margin: 5px 0; margin-bottom: 20px;">
+						<label class="book" style="margin-right: 5px;">
+							<input type="radio" name="radio" value="A" checked> Option A
+						</label>
+						<label class="book" style="margin-right: 5px;">
+							<input type="radio" name="radio" value="B"> Option B
+						</label>
+						<label class="book" style="margin-right: 5px;">
+							<input type="radio" name="radio" value="C"> Option C
+						</label>
+					</div>
+					<label class="bold" for="email">Email </label>
+					<br>
+					<input name="email" type="email" placeholder="email@email.co">
+					<label class="bold" for="phone">Phone Number</label>
+					<br>
+					<input name="phone" type="tel" placeholder="555-555-5555">
+					<label class="bold" for="birthday">Datetime
+					</label>
+					<br>
+					<input name="birthday" type="datetime" placeholder="Jan 1, 2016">
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<p class="dark bold">DATE SELECTOR</p>
+					<p class="text" style="margin-top: 10px;">For selecting specific dates. Used on <a class="blue" href="sermons.html">Sermons</a> and <a class="blue" href="brp.html">BRP</a> pages.</p>
+					<br>
+					<div class="flex-item-1">
+						<div class="card" style="margin-bottom:0;">
+							<div class="cardContent" style="font-size: 1.4em; overflow: hidden;">
+								<div class="dates" style="width: 1000px;">
+									<a class="book">Jan</a>
+									<a class="book">Feb</a>
+									<a class="blue">Mar</a>
+									<a class="book">Apr</a>
+									<a class="book">May</a>
+									<a class="book">Jun</a>
+									<a class="book">Jul</a>
+									<a class="book">Aug</a>
+									<a class="book">Sep</a>
+									<a class="book">Oct</a>
+									<a class="book">Nov</a>
+									<a class="book">Dec</a>
+								</div>
+							</div>
+						</div>
+						<div class="card darkCard" style="margin-top: 0;">
+							<div class="cardContent" style="font-size: 1.2em; overflow: hidden;">
+								<div class="dates" style="width: 1000px;">
+									<a class="book white">01</a>
+									<a class="book white">02</a>
+									<a class="book white">03</a>
+									<a class="book white">04</a>
+									<a class="book white">05</a>
+									<a class="book white">06</a>
+									<a class="book white">07</a>
+									<a class="book white">08</a>
+									<a class="book white">09</a>
+									<a class="blue">10</a>
+									<a class="book white">11</a>
+									<a class="book white">12</a>
+									<a class="book white">13</a>
+									<a class="book white">14</a>
+									<a class="book white">15</a>
+									<a class="book white">16</a>
+									<a class="book white">17</a>
+									<a class="book white">18</a>
+									<a class="book white">19</a>
+									<a class="book white">20</a>
+									<a class="book white">21</a>
+									<a class="book white">22</a>
+									<a class="book white">23</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<p class="dark bold">ACCORDION</p>
+					<p class="text" style="margin-top: 10px;">For showing and hiding large amounts of text. Used on the <a class="blue" href="brp.html">BRP</a> page.</p>
+					<div class="card">
+						<div class="cardContent">
+							<section class="ac-container">
+								<div>
+									<input id="ac-2" name="accordion-1" type="checkbox" checked/>
+									<label for="ac-2">LUKE 1:39-45</label>
+									<article class="ac-medium">
+										<p class="text" style="margin: 20px 0;"><b>Mary Visits Elizabeth</b>
+											<br> <sup>39</sup> In those days Mary arose and went with haste into the hill country, to a town in Judah, <sup>40</sup> and she entered the house of Zechariah and greeted Elizabeth. <sup>41</sup> And when Elizabeth heard the greeting of Mary, the baby leaped in her womb. And Elizabeth was filled with the Holy Spirit, <sup>42</sup> and she exclaimed with a loud cry, "Blessed are you among women, and blessed is the fruit of your womb! <sup>43</sup> And why is this granted to me that the mother of my Lord should come to me? <sup>44</sup> For behold, when the sound of your greeting came to my ears, the baby in my womb leaped for joy. <sup>45</sup> And blessed is she who believed that there would be a fulfillment of what was spoken to her from the Lord."
+										</p>
+									</article>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<br>
+			<br>
+			<br>
+			<h1 class="blue bold" style="padding-top: 5px; border-top: 4px #20A0D8 solid; display: inline-block;">Molecules</h1>
+			<br>
+			<br>
+			<p class="text">Components birthed when atoms combine. (In Progress)</p>
+			<div style="margin: 40px 0;">
+				<h1 class="dark bold underline">Cards</h1>
+				<br>
+				<br>
+				<div id="sermons">
+					<h2 class="dark bold inline">SERMONS</h2>&nbsp;&nbsp;&nbsp;
+					<p class="inline"><a class="book blue" href="sermons.html">Live Demo</a>
+					</p>
+					<br>
+					<br>
+					<br>
+					<p class="dark bold">STRUCTURE</p>
+					<br>
+					<div class="md-flex">
+						<div class="flex-item-1">
+							<div class="card full-height" style="margin-bottom: 0;">
+								<div class="cardImage" style="background-color: #20A0D8;">
+									<img src="http://annarbor.hmcc.net/resources/annarbor/sermons/testify/0.jpg" class="cardImage" style="opacity: 0;">
+								</div>
+								<div class="full-width" style="z-index: 2; bottom: 0;">
+									<div style="padding: 10px;">
+										<div class="cardContent">
+											<h2 class="blue sermonHead underline">Series Name</h2>
+											<hr>
+											<div class="flex flex-row sermonListItem">
+												<div class="flex flex-item-4">
+													<p><a class="dark book">Sermon</a>
+													</p>
+												</div>
+												<div class="flex flex-item-1 justify-end">
+													<b>Date</b>
+												</div>
+											</div>
+											<div class="flex flex-row sermonListItem">
+												<div class="flex flex-item-4">
+													<p><a class="dark book" href="sermon.html">Sermon</a>
+													</p>
+												</div>
+												<div class="flex flex-item-1 justify-end">
+													<b>Date</b>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="flex-item-1">
+							<div class="card">
+								<div class="cardContent">
+									<h2 class="book">div .card</h2>
+									<p class="medium">Image</p>
+									<p class="blue medium" style="margin-top: 5px;">div.cardImage + img.cardImage</p>
+									<br>
+									<h2 class="book">div .cardContent</h2>
+									<p class="bold" style="margin-top: 10px;">Series Name</p>
+									<p class="blue medium" style="margin-top: 5px;">h2 .bold .blue .underline</p>
+
+									<p class="book" style="margin-top: 10px;">Sermon</p>
+									<p class="blue medium" style="margin-top: 5px;">p > a .book .dark</p>
+
+									<p class="bold" style="margin-top: 10px;">Date</p>
+									<p class="blue medium" style="margin-top: 5px;">b .bold</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br>
+					<br>
+					<p class="dark bold">EXAMPLES</p>
+					<br>
+					<div class="md-flex">
+
+						<div class="flex-item-1">
+							<div class="card full-height" style="margin-bottom: 0;">
+								<div class="cardImage">
+									<img src="http://annarbor.hmcc.net/resources/annarbor/sermons/testify/0.jpg" class="cardImage">
+								</div>
+								<div class="full-width" style="z-index: 2; bottom: 0;">
+									<div style="padding: 10px;">
+										<div class="cardContent">
+											<h2 class="blue sermonHead underline">Testify</h2>
+											<hr>
+											<div class="flex flex-row sermonListItem">
+												<div class="flex flex-item-4">
+													<p><a class="dark book">New Purpose</a>
+													</p>
+												</div>
+												<div class="flex flex-item-1 justify-end">
+													<b>4/3</b>
+												</div>
+											</div>
+											<div class="flex flex-row sermonListItem">
+												<div class="flex flex-item-4">
+													<p><a class="dark book" href="sermon.html">New Family</a>
+													</p>
+												</div>
+												<div class="flex flex-item-1 justify-end">
+													<b>3/27</b>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="flex flex-item-1">
+							<div class="card full-height" style="margin-bottom: 0;">
+								<div class="cardImage">
+									<img src="http://annarbor.hmcc.net/resources/annarbor/events/kingdomecome-web.jpg" class="cardImage">
+								</div>
+								<div class="full-width" style="z-index: 2; bottom: 0;">
+									<div style="padding: 10px;">
+										<div class="cardContent">
+											<h2 class="blue sermonHead underline">Kingdom Come</h2>
+											<hr>
+											<div class="flex flex-row sermonListItem">
+												<div class="flex flex-item-4">
+													<p><a class="dark book">Matthew 5:31-37</a>
+													</p>
+												</div>
+												<div class="flex flex-item-1 justify-end">
+													<b>3/6</b>
+												</div>
+											</div>
+											<div class="flex flex-row sermonListItem">
+												<div class="flex flex-item-4">
+													<p><a class="dark book">Heart of Obedience</a>
+													</p>
+												</div>
+												<div class="flex flex-item-1 justify-end">
+													<b>2/21</b>
+												</div>
+											</div>
+											<div class="flex flex-row sermonListItem">
+												<div class="flex flex-item-4">
+													<p><a class="dark book">Fulfilling the Law</a>
+													</p>
+												</div>
+												<div class="flex flex-item-1 justify-end">
+													<b>2/14</b>
+												</div>
+											</div>
+											<div class="flex flex-row sermonListItem">
+												<div class="flex flex-item-4">
+													<p><a class="dark book">Salt & Light</a>
+													</p>
+												</div>
+												<div class="flex flex-item-1 justify-end">
+													<b>2/7</b>
+												</div>
+											</div>
+											<div class="flex flex-row sermonListItem">
+												<div class="flex flex-item-4">
+													<p><a class="dark book">Matthew 5:1-12</a>
+													</p>
+												</div>
+												<div class="flex flex-item-1 justify-end">
+													<b>1/31</b>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+				<br>
+				<div class="underline"></div>
+				<br>
+				<br>
+
+				<div id="events">
+					<h2 class="dark bold inline">EVENTS</h2>&nbsp;&nbsp;&nbsp;
+					<p class="inline"><a class="book blue" href="events.html">Live Demo</a>
+					</p>
+					<br>
+					<br>
+					<br>
+					<p class="dark bold">STRUCTURE</p>
+					<br>
+					<div class="md-flex">
+						<div class="flex-item-1">
+							<div class="card cardHover full-height" style="margin-bottom: 0;">
+								<div class="cardImage" style="background-color: #20A0D8;">
+									<img src="http://annarbor.hmcc.net/resources/singapore/events/!gnite2016-ad-v16.jpg" class="cardImage" style="opacity: 0;">
+								</div>
+								<div class="full-width" style="z-index: 2; bottom: 0;">
+									<div style="padding: 10px;">
+										<div class="cardContent">
+											<p class="uppercase" style="margin-bottom: 10px; opacity: .6;">Date</p>
+											<h2 class="dark sermonHead"><a>Event Name</a></h2>
+											<p class="blue" style="margin-top: 10px;"> Location + Time</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="flex-item-1">
+							<div class="card">
+								<div class="cardContent">
+									<h2 class="book">div .card .cardHover</h2>
+									<p class="medium">Image</p>
+									<p class="blue medium" style="margin-top: 5px;">div.cardImage + img.cardImage</p>
+									<br>
+									<h2 class="book">div .cardContent</h2>
+									<p class="book" style="margin-top: 10px;">Date</p>
+									<p class="blue medium" style="margin-top: 5px;">p .uppercase opacity: .6</p>
+
+									<p class="bold" style="margin-top: 10px;">Event Name</p>
+									<p class="blue medium" style="margin-top: 5px;">h2 .dark</p>
+
+									<p class="book" style="margin-top: 10px;">Location + Time</p>
+									<p class="blue medium" style="margin-top: 5px;">p .book .blue</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br>
+					<br>
+					<p class="dark bold">EXAMPLES</p>
+					<br>
+					<div class="md-flex">
+						<div class="flex-item-1">
+							<div class="card cardHover full-height" style="margin-bottom: 0;">
+								<div class="cardImage">
+									<img src="http://annarbor.hmcc.net/img/banners/Sunday-Celebration-2015.jpg" class="cardImage">
+								</div>
+								<div class="full-width" style="z-index: 2; bottom: 0;">
+									<div style="padding: 10px;">
+										<div class="cardContent">
+											<p style="margin-bottom: 10px; opacity: .6;">SUN, APR 24</p>
+											<h2 class="dark sermonHead"><a>Sunday Celebration</a></h2>
+											<p class="blue" style="margin-top: 10px;">9a & 11a @ Transformation Center</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="flex-item-1">
+							<div class="card cardHover full-height" style="margin-bottom: 0;">
+								<div class="cardImage">
+									<img src="http://annarbor.hmcc.net/resources/singapore/events/!gnite2016-ad-v16.jpg" class="cardImage">
+								</div>
+								<div class="full-width" style="z-index: 2; bottom: 0;">
+									<div style="padding: 10px;">
+										<div class="cardContent">
+											<p style="margin-bottom: 10px; opacity: .6;">FRI, MAY 13 &mdash; SUN, MAY 15</p>
+											<h2 class="dark sermonHead"><a>!gnite 2016</a></h2>
+											<p class="blue" style="margin-top: 10px;"> Transformation Center</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+				<br>
+				<div class="underline"></div>
+				<br>
+				<br>
+
+				<div id="photos">
+					<h2 class="dark bold inline">PHOTOS</h2>&nbsp;&nbsp;&nbsp;
+					<p class="inline"><a class="book blue" href="photos.html">Live Demo</a>
+					</p>
+					<br>
+					<br>
+					<br>
+					<p class="dark bold">STRUCTURE</p>
+					<br>
+					<div class="md-flex">
+						<div class="flex-item-1">
+							<div class="card cardHover full-height" style="margin-bottom: 0;">
+								<div class="cardImage" style="background-color: #20A0D8;">
+									<img src="https://lh3.googleusercontent.com/-9p_JFCR4ET4/Vu71aQd_4MI/AAAAAAAAYZM/ScaVoJihyUsjAIaLA8n7lYKrhsB1Y9PfwCHM/Mar_20_2016_PalmSunday_EasterAnnouncenment_LawerenceYoung_5.JPG?imgmax=800" class="cardImage" style="opacity: 0;">
+								</div>
+								<div class="full-width" style="z-index: 2; bottom: 0;">
+									<div class="cardContent">
+										<h2 class="sermonHead">Photoset Title</h2>
+										<br>
+										<div class="flex flex-row">
+											<div class="flex-item-1">
+												<p style="opacity: .5;">Date</p>
+											</div>
+											<div class="flex-item-1 right">
+												<p style="opacity: .5;"># of photos</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="flex-item-1">
+							<div class="card">
+								<div class="cardContent">
+									<h2 class="book">div .card .cardHover</h2>
+									<p class="medium">Image</p>
+									<p class="blue medium" style="margin-top: 5px;">div.cardImage + img.cardImage</p>
+									<br>
+									<h2 class="book">div .cardContent</h2>
+									<p class="bold" style="margin-top: 10px;">Photoset Title</p>
+									<p class="blue medium" style="margin-top: 5px;">h2 .dark</p>
+									<br>
+									<h2 class="book">div .flex > .flex-item-1</h2>
+									<p class="book" style="margin-top: 10px;">Date</p>
+									<p class="blue medium" style="margin-top: 5px;">p .book opacity: .6</p>
+									<p class="book" style="margin-top: 10px;"># of photos</p>
+									<p class="blue medium" style="margin-top: 5px;">p .book opacity: .6</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<br>
+					<br>
+					<p class="dark bold">EXAMPLES</p>
+					<br>
+					<div class="md-flex">
+						<div class="flex-item-1">
+							<div class="card cardHover full-height" style="margin-bottom: 0;">
+								<div class="cardImage">
+									<img src="https://lh3.googleusercontent.com/-9p_JFCR4ET4/Vu71aQd_4MI/AAAAAAAAYZM/ScaVoJihyUsjAIaLA8n7lYKrhsB1Y9PfwCHM/Mar_20_2016_PalmSunday_EasterAnnouncenment_LawerenceYoung_5.JPG?imgmax=800" class="cardImage">
+								</div>
+								<div class="full-width" style="z-index: 2; bottom: 0;">
+									<div class="cardContent">
+										<h2 class="sermonHead">Palm Sunday Presentation</h2>
+										<br>
+										<div class="flex flex-row">
+											<div class="flex-item-1">
+												<p style="opacity: .5;">Mar. 27, 2016</p>
+											</div>
+											<div class="flex-item-1 right">
+												<p style="opacity: .5;">7 photos</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="flex flex-item-1">
+							<div class="card cardHover full-height" style="margin-bottom: 0;">
+								<div class="cardImage">
+									<img src="https://lh3.googleusercontent.com/-YWjOYNRQFd0/Vu71f1d8I6I/AAAAAAAAYZM/fDP7iRmAFD0yfA676Dp551VFVUaNRntKgCHM/Mar_20_2016_PalmSunday_MissionsPresentation_Freshmen_Peru_1.JPG?imgmax=800" class="cardImage">
+								</div>
+								<div class="full-width" style="z-index: 2; bottom: 0;">
+									<div class="cardContent">
+										<h2 class="sermonHead">2016 Freshmen Spring Break & Peru Missions Recap</h2>
+										<br>
+										<div class="flex flex-row">
+											<div class="flex-item-1">
+												<p style="opacity: .5;">Mar. 27, 2016</p>
+											</div>
+											<div class="flex-item-1 right">
+												<p style="opacity: .5;">7 photos</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<script src="menu.js"></script>
+	<script src="classie.js"></script>
+</body>

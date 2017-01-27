@@ -1,110 +1,445 @@
 <!DOCTYPE html>
 
 <head>
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Harvest Mission Community Church - Ann Arbor</title>
 	<link rel="stylesheet" href="style.css">
+	<script src="modernizr.custom.js"></script>
 </head>
 
 <body>
-	<div id="heroImage">
-		<div class="row">
-			<nav id="clearbgNav">
-				<div class="logoDiv"><img src="logo.png" class="logo">
+	<div class="absolute full-width" style="background-color: #F6F6F6;">
+		<nav id="bgNav">
+			<div class="content flex align-center justify-center">
+				<div class="flex-item-1">
+					<a href="index.html"><img src="logo-dark.png" class="logo">
+					</a>
 				</div>
-				<div class="menuDiv"><a href="#" class="link" id="menuLink">MENU</a>
+				<div class="flex-item-1" id="trigger-overlay" style="text-align: right;"><a href="#" class="link blue" id="menuLink">MENU</a>
 				</div>
+			</div>
+		</nav>
+		<div class="overlay overlay-hugeinc">
+			<button type="button" class="overlay-close">CLOSE</button>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a>
+					</li>
+					<li><a href="#">About Us</a>
+					</li>
+					<li><a href="sermons.html">Sermons</a>
+					</li>
+					<li><a href="photos.html">Media</a>
+					</li>
+					<li><a href="events.html">Calendar</a>
+					</li>
+					<li><a href="hmi.html">Missions</a>
+					</li>
+					<br>
+					<li><a href="new.html">New to HMCC?</a>
+					</li>
+				</ul>
 			</nav>
-			<div id="verticalCenter">
-				<h1>Multiplying churches in campuses and cities to <b class="blue">transform the next generation among the nations</b></h1>
+		</div>
+
+		<div class="card no-margin" style="background-color: black;">
+			<div class="bgImage" style="max-height: none; z-index: 1;">
+				<div class="full-width">
+					<div style="z-index: 4;">
+						<div class="centered content" style="padding: 100px 40px; max-width: 600px;">
+							<h1 style="font-size: 2.5em;" class="white">Multiplying churches in campuses and cities to <b class="blue">transform the next generation among the nations</b></h1>
+							<a href="new.html">
+								<button style="margin-top: 40px;">Get Connected</button>
+							</a>
+						</div>
+					</div>
+				</div>
+				<video src="450278221.mp4" class="cardImage absolute" style="opacity: .2; top: 0; z-index: -1;" autoplay loop muted>
+					<source src="450278221.mp4" type="video/mp4">
+				</video>
+			</div>
+		</div>
+		<!--
+		<div id="heroImage">
+			<div class="content">
+				<div class="centered" style="padding: 60px 10px;">
+					<h1 class="dark">Multiplying churches in campuses and cities to <b class="blue">transform the next generation among the nations</b></h1>
+					<button style="margin-top: 40px;">Get Connected</button>
+				</div>
+			</div>
+		</div>
+-->
+
+		<div class="content" style="padding-top: 40px;">
+			<div class="centered">
+				<h2 class="bold" style="opacity: .7;">UPCOMING</h2>
+			</div>
+			<div class="md-flex">
+				<div class="flex-item-1">
+					<div class="card cardBorder cardHover full-height" style="margin-bottom: 0;">
+						<div class="bgImage" style="max-height: none;">
+							<img src="http://annarbor.hmcc.net/resources/annarbor/events/tgif-web.jpg" class="cardImage">
+						</div>
+						<div class="cardContent">
+							<p style="margin-bottom: 10px; opacity: .6;">FRI, APR 8</p>
+							<h2 class="dark sermonHead">Therefore, Go Invest Friday (TGIF)</h2>
+							<p class="blue" style="margin-top: 10px;">7p @ Transformation Center</p>
+						</div>
+					</div>
+				</div>
+				<div class="flex-item-1">
+					<div class="card cardHover cardBorder full-height" style="margin-bottom: 0;">
+						<div class="bgImage" style="max-height: 400px;">
+							<img src="http://annarbor.hmcc.net/img/banners/Sunday-Celebration-2015.jpg" class="cardImage">
+						</div>
+						<div class="cardContent">
+							<p style="margin-bottom: 10px; opacity: .6;">SUN, APR 10</p>
+							<h2 class="dark sermonHead">Sunday Celebration</h2>
+							<p class="blue" style="margin-top: 10px;">9a & 11a @ Transformation Center</p>
+						</div>
+					</div>
+				</div>
+				<div class="flex-item-1">
+					<div class="card cardHover cardBorder full-height" style="margin-bottom: 0;">
+						<div class="bgImage" style="max-height: 400px;">
+							<img src="http://annarbor.hmcc.net/img/banners/prayer-gathering-2015.jpg" class="cardImage">
+						</div>
+						<div class="cardContent">
+							<p style="margin-bottom: 10px; opacity: .6;">THU, APR 21</p>
+							<h2 class="dark sermonHead">Prayer Gathering</h2>
+							<p class="blue" style="margin-top: 10px;">7p @ Transformation Center</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div style="background-color: #fff; padding: 40px 0; margin-top: 40px;">
+			<div class="content">
+
+				<div class="centered">
+					<h2 style="opacity: .7;">RECENT</h2>
+				</div>
+
+				<div class="md-flex">
+					<div class="flex-item-1">
+						<div class="card cardHover">
+							<div class="bgImage">
+								<div class="absolute full-width" style="z-index: 2; bottom: 0;">
+									<div class="darkBG" style="padding: 10px;">
+										<div class="flex flex-item-1 flex-row">
+											<div class="flex flex-item-2 align-center">
+												<b class="white annLink">Heart of Obedience</b>
+											</div>
+											<div class="flex flex-item-1 text-right align-center justify-end">
+												<p class="white">2/21</p>
+											</div>
+										</div>
+										<div class="flex flex-row" style="margin-top: 8px;">
+											<div class="flex flex-item-2 align-center white">
+												<p>Pastor&nbsp;<b>Rebi Verghese</b>
+												</p>
+											</div>
+											<div class="flex flex-item-1 justify-end align-center text-right">
+												<b class="white">Var Passages</b>
+											</div>
+										</div>
+									</div>
+								</div>
+								<img src="http://annarbor.hmcc.net/resources/annarbor/events/kingdomecome-web.jpg" class="cardImage">
+							</div>
+						</div>
+					</div>
+					<div class="flex-item-1">
+						<div class="card cardHover">
+							<div class="bgImage">
+								<div class="absolute full-width" style="z-index: 2; bottom: 0;">
+									<div class="darkBG" style="padding: 10px;">
+										<div class="flex flex-item-1 flex-row">
+											<div class="flex flex-item-2 align-center">
+												<b class="white annLink">Thomas</b>
+											</div>
+											<div class="flex flex-item-1 text-right align-center justify-end">
+												<p class="white">2/19</p>
+											</div>
+										</div>
+										<div class="flex flex-row" style="margin-top: 8px;">
+											<div class="flex flex-item-2 align-center white">
+												<p>Pastor&nbsp;<b>Pete Dahlem</b>
+												</p>
+											</div>
+											<div class="flex flex-item-1 justify-end align-center text-right">
+												<b class="white">Var Passages</b>
+											</div>
+										</div>
+									</div>
+								</div>
+								<img src="http://annarbor.hmcc.net/resources/annarbor/events/thetwelve-web.jpg" class="cardImage">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="md-flex">
+					<div class="flex-item-1">
+						<div class="card">
+							<div class="bgImage" style="background-color: black;">
+								<div class="full-width" style="z-index: 2;">
+									<div class="absolute centered center-child full-width" style="max-width: 500px;">
+										<H1 class="life">LIFE</H1>
+										<a href="lg-signup.html">
+											<button>Sign up for LIFE Group</button>
+										</a>
+									</div>
+								</div>
+								<img src="https://lh3.googleusercontent.com/-qxy5_X4da20/ViCf48uFhXI/AAAAAAAAXn8/WxiYOJW2uM4ec7SRivcsk49ZVjH2kVHsgCHM/s288/2015_Oct_3_HGames_EstherLuo_XinxinZhou_MichelleChen_YeanahCha-2.jpg" class="cardImage" style="opacity: .5">
+							</div>
+						</div>
+					</div>
+					<div class="flex-item-1">
+						<a href="brp.html">
+							<div class="card cardHover">
+								<div class="bgImage" style="background-color: black;">
+									<div class="full-width" style="z-index: 2;">
+										<p class="absolute white brpTitle full-width centered" style="margin: 15px 0px; z-index: 2;">BIBLE READING PLAN</p>
+										<div class="absolute centered center-child full-width" style="max-width: 500px;">
+											<p class="white passages" style="margin-top: 5px;">1 Chron. 28-29
+												<br>John 9:24-41
+											</p>
+										</div>
+									</div>
+									<div class="absolute full-width" style="z-index: 3; bottom: 0;">
+										<div style="padding: 10px; opacity: .8;">
+											<div class="flex flex-item-1 flex-row">
+												<div class="flex flex-item-1 align-center">
+													<p class="white">Today Nov 4</p>
+												</div>
+												<div class="flex flex-item-1 text-right align-center justify-end">
+													<p class="white">Day 320</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<img src="https://images.unsplash.com/photo-1437603568260-1950d3ca6eab?crop=entropy&dpr=2&fit=crop&fm=jpg&h=318&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=475" class="cardImage" style="opacity: .5">
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="full-width">
+			<div class="flex-item-1">
+				<a href="sermon.html">
+					<div class="cardHover">
+						<div class="bgImage" style="max-height: 400px; background-color: black;">
+							<div class="full-width" style="z-index: 2;">
+								<div class="absolute centered center-child full-width" style="max-width: 500px;">
+									<p class="white bold" style="margin-bottom: 10px;">MAR 27 2014</p>
+									<div style="border-top: 2px #fff solid; border-bottom: 2px #fff solid; margin: 0px 10px; padding: 10px;">
+										<H1 class="quote">&ldquo;The resurrection transforms our lives & our relationships.&rdquo;</H1>
+									</div>
+									<p class="white" style="margin-top: 10px;">Sermon on John 20 & Acts 4 </p>
+								</div>
+							</div>
+							<img src="https://lh3.googleusercontent.com/-OlYs1bHcAds/VvlEnol7VJI/AAAAAAAAYbY/qEXC09GDrVIhWeDBsuzdoTBgIX7KrowPwCHM/2015_Mar_EasterCelebration_Sunday_Worship_CloseUp_PPete.jpg?imgmax=800" class="cardImage" style="opacity: .5;">
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="content" style="padding: 40px 0px;">
+
+			<div class="centered">
+				<h2 style="opacity: .7;">OTHER LINKS</h2>
+			</div>
+
+			<div class="md-flex">
+				<div class="flex-item-1">
+					<div class="card full-height" style="margin-bottom: 0; max-height: 370px;">
+						<div class="cardContent">
+							<div class="centered" style="margin-top: 20px;">
+								<h2 class="blue">Announcements</h2>
+							</div>
+							<div class="announcementsContainer flex flex-column">
+								<div class="announcement">
+									<div class="flex flex-row">
+										<div class="flex flex-item-1 align-center">
+											<b>AUG 1</b>
+										</div>
+										<div class="flex flex-item-4">
+											<a class="annLink dark">Sunday Celebration</a>
+										</div>
+									</div>
+									<div class="flex flex-row" style="margin-top: 5px">
+										<div class="flex flex-item-1 align-center">
+											<b style="opacity: .5;">Wed</b>
+										</div>
+										<div class="flex flex-item-4">
+											<p class="description dark">10 AM Transformation Center</p>
+										</div>
+									</div>
+								</div>
+								<div class="announcement">
+									<div class="flex flex-row">
+										<div class="flex flex-item-1 align-center">
+											<b>AUG 1</b>
+										</div>
+										<div class="flex flex-item-4">
+											<a class="annLink dark">Sunday Celebration</a>
+										</div>
+									</div>
+									<div class="flex flex-row" style="margin-top: 5px">
+										<div class="flex flex-item-1 align-center">
+											<b style="opacity: .5;">Wed</b>
+										</div>
+										<div class="flex flex-item-4">
+											<p class="description dark">10 AM Transformation Center</p>
+										</div>
+									</div>
+								</div>
+								<div class="announcement">
+									<div class="flex flex-row">
+										<div class="flex flex-item-1 align-center">
+											<b>AUG 1</b>
+										</div>
+										<div class="flex flex-item-4">
+											<a class="annLink dark">Sunday Celebration</a>
+										</div>
+									</div>
+									<div class="flex flex-row" style="margin-top: 5px">
+										<div class="flex flex-item-1 align-center">
+											<b style="opacity: .5;">Wed</b>
+										</div>
+										<div class="flex flex-item-4">
+											<p class="description dark">10 AM Transformation Center</p>
+										</div>
+									</div>
+								</div>
+								<div class="announcement">
+									<div class="flex flex-row">
+										<div class="flex flex-item-1 align-center">
+											<b>AUG 1</b>
+										</div>
+										<div class="flex flex-item-4">
+											<a class="annLink dark">Sunday Celebration</a>
+										</div>
+									</div>
+									<div class="flex flex-row" style="margin-top: 5px">
+										<div class="flex flex-item-1 align-center">
+											<b style="opacity: .5;">Wed</b>
+										</div>
+										<div class="flex flex-item-4">
+											<p class="description dark">10 AM Transformation Center</p>
+										</div>
+									</div>
+								</div>
+								<div class="separator"></div>
+								<div class="flex justify-center" style="margin: 5px 0px;">
+									<a href="events.html" class="blue" style="font-size: 1.1em;">View All</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="flex-item-1">
+					<div class="card full-height" style="max-height: 370px;">
+						<div class="cardContent">
+							<div class="centered" style="margin-top: 20px;">
+								<h2 class="blue">Forms</h2>
+							</div>
+							<div class="announcementsContainer flex flex-column">
+								<div class="announcement">
+									<div class="flex flex-row">
+										<div class="flex">
+											<a class="annLink dark">Support Peru, Freshman, and Detroit Missions</a>
+										</div>
+									</div>
+									<div class="flex" style="margin-top: 5px">
+										<p class="description dark">Deadline 3/3</p>
+									</div>
+								</div>
+								<div class="announcement">
+									<div class="flex flex-row">
+										<div class="flex">
+											<a class="annLink dark">Sign up for Freedom Class</a>
+										</div>
+									</div>
+									<div class="flex" style="margin-top: 5px">
+										<p class="description dark">Deadline 3/3</p>
+									</div>
+								</div>
+								<div class="announcement">
+									<div class="flex flex-row">
+										<div class="flex">
+											<a class="annLink dark">Sign up for Grad Night</a>
+										</div>
+									</div>
+									<div class="flex" style="margin-top: 5px">
+										<p class="description dark">Deadline 3/3</p>
+									</div>
+								</div>
+								<div class="announcement">
+									<div class="flex flex-row">
+										<div class="flex">
+											<a class="annLink dark">Sign up for OCR</a>
+										</div>
+									</div>
+									<div class="flex" style="margin-top: 5px">
+										<p class="description dark">Deadline 3/3</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="full-width">
+			<div class="bgImage" style="background-color: black; margin-top: 20px; max-height: 200px;">
+				<div class="absolute centered center-child full-width">
+					<h2 class="white medium">Help support our ministry</h2>
+					<a href="giving.html" class="button-link">
+						<button>Donate to HMCC</button>
+					</a>
+				</div>
+				<img src="https://lh3.googleusercontent.com/-F2nHUDKYUKY/VaIHdw_4s2I/AAAAAAAAWx8/QVQhFK13Ztc1qTlCpnd7lolqYjkimC9KgCHM/2015_%2521gnite_Day2_GroupPhoto_Normal.jpg?imgmax=800" class="cardImage" style="opacity: 0.5;">
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="content">
+				<p class="white bold" style="opacity: .5; font-size: 1.3em;">Harvest Mission
+					<br>Community Church</p>
 				<br>
-				<button>Get Connected</button>
+				<div class="flex">
+					<div class="flex flex-item-1 flex-column" style="line-height: 1.8;">
+						<p><a class="white book">About Us</a>
+						</p>
+						<p><a class="white book" href="sermons.html">Sermons</a>
+						</p>
+						<p><a class="white book" href="photos.html">Media</a>
+						</p>
+					</div>
+					<div class="flex flex-item-1 flex-column" style="line-height: 1.8;">
+						<p><a class="white book" href="events.html">Calendar</a>
+						</p>
+						<p><a class="white book">HMI</a>
+						</p>
+						<p><a class="white book">New to HMCC?</a>
+						</p>
+					</div>
+				</div>
+				<div style="margin-top: 30px;">
+					<p class="white" style="opacity: .5; font-size: .9em;">&copy; 2016 Harvest Mission Community Church</p>
+				</div>
+
 			</div>
 		</div>
 	</div>
+	<script src="menu.js"></script>
+	<script src="classie.js"></script>
 
-	<div class="card">
-		<div class="centered">
-			<h2 class="blue">Announcements</h2>
-		</div>
-		<div class="announcementsContainer flex flex-column">
-			<div class="announcement">
-				<div class="flex flex-row">
-					<div class="flex flex-item-1 align-center">
-						<b>AUG 1</b>
-					</div>
-					<div class="flex flex-item-4">
-						<a class="annLink dark">Sunday Celebration</a>
-					</div>
-				</div>
-				<div class="flex flex-row" style="margin-top: 5px">
-					<div class="flex flex-item-1 align-center">
-						<b style="opacity: .5;">Wed</b>
-					</div>
-					<div class="flex flex-item-4">
-						<p class="description dark">10 AM Transformation Center</p>
-					</div>
-				</div>
-			</div>
-			<div class="announcement">
-				<div class="flex flex-row">
-					<div class="flex flex-item-1 align-center">
-						<b>AUG 1</b>
-					</div>
-					<div class="flex flex-item-4">
-						<a class="annLink dark">Sunday Celebration</a>
-					</div>
-				</div>
-				<div class="flex flex-row" style="margin-top: 5px">
-					<div class="flex flex-item-1 align-center">
-						<b style="opacity: .5;">Wed</b>
-					</div>
-					<div class="flex flex-item-4">
-						<p class="description dark">10 AM Transformation Center</p>
-					</div>
-				</div>
-			</div>
-			<div class="announcement">
-				<div class="flex flex-row">
-					<div class="flex flex-item-1 align-center">
-						<b>AUG 1</b>
-					</div>
-					<div class="flex flex-item-4">
-						<a class="annLink dark">Sunday Celebration</a>
-					</div>
-				</div>
-				<div class="flex flex-row" style="margin-top: 5px">
-					<div class="flex flex-item-1 align-center">
-						<b style="opacity: .5;">Wed</b>
-					</div>
-					<div class="flex flex-item-4">
-						<p class="description dark">10 AM Transformation Center</p>
-					</div>
-				</div>
-			</div>
-			<div class="announcement">
-				<div class="flex flex-row">
-					<div class="flex flex-item-1 align-center">
-						<b>AUG 1</b>
-					</div>
-					<div class="flex flex-item-4">
-						<a class="annLink dark">Sunday Celebration</a>
-					</div>
-				</div>
-				<div class="flex flex-row" style="margin-top: 5px">
-					<div class="flex flex-item-1 align-center">
-						<b style="opacity: .5;">Wed</b>
-					</div>
-					<div class="flex flex-item-4">
-						<p class="description dark">10 AM Transformation Center</p>
-					</div>
-				</div>
-			</div>
-			<div class="separator"></div>
-			<div class="flex justify-center" style="margin: 5px 0px;">
-				<a class="blue" style="font-size: 1.1em;">View All</a>
-			</div>
-
-		</div>
-	</div>
 
 </body>
